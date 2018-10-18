@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+		#cars{
+		  display:flex;
+		  flex-wrap:wrap;
+		}
+		.card{
+		  position:relative;
+		  width:100px;
+		  margin:5px;
+		}
+		.card .basket{
+		  background-color:white;
+		  position:relative;
+		  right:5px;
+		  top:5px;
+		  z-index:2;
+		}
+		#insideBasket{
+		  border:1px solid red;
+		  text-align:center;
+		}
+		img{
+			width: 250px;
+			height: 150px;
+			margin: 5px;
+		}
+	</style>
+    <script src="task3.js" defer></script>
+  </head>
+
+  <body>
+    <div id="insideBasket"><span id="items">0</span> items, total: <span id="sum">0</span>$</div>
+    <div id="cars">
+		<div>
+
+    		<img src="https://images.pexels.com/photos/241316/pexels-photo-241316.jpeg?auto=compress&cs=tinysrgb&h=350"/>
+			<p>car 1</p>
+		</div>
+		
+		<div>
+			<img src="https://cdn.images.express.co.uk/img/dynamic/24/590x/McLaren-Senna-car-price-new-2018-890981.jpg"/>
+			<p>car 2</p>
+		</div>
+		
+		<div>
+			<img src="https://auto.ndtvimg.com/car-images/medium/hyundai/creta/hyundai-creta.jpg?v=2" />
+			<p>car 3</p>
+		</div>
+    </div>
+  </body>
+
+</html>
